@@ -1,0 +1,24 @@
+---
+name: File-SmartTail
+version: 1.0.0
+author:
+  - 'DMJA, Inc <smarttail@dmja.com>'
+abstract: Local and Remote Tail Library
+license: perl
+resources:
+  license: http://dev.perl.org/licenses/
+provides:
+  File::SmartTail:
+    file: lib/File/SmartTail.pm
+    version: 4.66
+  File::SmartTail::DB:
+    file: lib/File/SmartTail/DB.pm
+  File::SmartTail::Logger:
+    file: lib/File/SmartTail/NullLogger.pm
+  File::SmartTail::Version:
+    file: lib/File/SmartTail/Version.pm
+    version: 1.0.0
+generated_by: Module::Build version 0.2808
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.2.html
+  version: 1.2
